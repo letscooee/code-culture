@@ -64,3 +64,11 @@ Device addDevice(JSONObject deviceJson, App app, User user) {
 }
 
 ```
+
+## Variable declaration priority
+
+As a general standard, private constants & static variables should come first in a class.
+
+
+
+
