@@ -20,8 +20,8 @@ Passing the variable to closure explicitly so as to increase readability.
 ```groovy
 userPropertiesJson.each { String key, String value -> 
     UserProperty userProperty = new UserProperty()
-    userProperty.name = it
-    userProperty.value = userPropertiesJson[it]
+    userProperty.name = name
+    userProperty.value = value
 }
 ```
 
