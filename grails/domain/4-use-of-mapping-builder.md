@@ -31,7 +31,7 @@ When you see this code (which is having `@GrailsCompileStatic`) in IntelliJ, it 
 block. And because of a bug in IntelliJ, it will show errors only in the IDE (not when you run the app). See the descriptions at 
 https://stackoverflow.com/q/60113220/2405040
 
-![Bug Screenshot](screenshots/intellij-bug-domain-mapping.png)
+![Bug Screenshot](../../screenshots/intellij-bug-domain-mapping.png)
 
 To overcome this problem, we need to use the `MappingBuilder` class which is used internally by Grails. So the modified version will look
  like this-
@@ -59,4 +59,4 @@ class User {
 
 Now IntelliJ can represent your classes better.
 
-![Bug Solved](screenshots/use-of-mapping-builder-in-domain.png)
+![Bug Solved](../../screenshots/use-of-mapping-builder-in-domain.png)
