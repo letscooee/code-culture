@@ -109,7 +109,7 @@ And add the following in mapping-
 
 ```groovy
     static mapping = {
-        gender [enumType: "identity"]       // This will tell Hibernate to use the "id" attribute
+        gender enumType: "identity"       // This will tell Hibernate to use the "id" attribute
     }
 ```
 
