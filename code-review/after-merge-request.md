@@ -36,7 +36,7 @@ must pass and result is green. For example, the following MR won't be accepted-
 2. Each individual character, word, and line that has been changed in this MR was self-reviewed for DRYness & quality.
 3. No print statements, unnecessary logs are left in the MR.
 4. No commented code are kept in the branch/MR.
-5. Code linting are performed.
+5. Code linting are performed i.e. code formatting are optimized as per linting rules.
 6. All the general rules of specific language or framework was followed and checked. For example-
    1. [General](../general/README.md) rules like code indentation.
    2. [HTML](../html/README.md)'s general rules & other standards are followed..
@@ -98,4 +98,5 @@ You must highlight the followings in your MR or Jira card-
 2. Leave a comment in the MR that the MR is ready for review.
 3. Notify your team lead (you can mention in the comment) or update 
 
-> If your MR/PR is already reviewed and you are looking for the steps to take after the review, follow [this](https://stackoverflow.com/c/letscooee/questions/67) link.
+> If your MR is already reviewed and you are looking for the steps to take after the review,
+> follow [after merge request reviewed](after-merge-request-reviewed.md) doc.

@@ -54,8 +54,31 @@ Device addDevice(JSONObject deviceJson, App app, User user) {
     device.save(failOnError: true)
     return device
 }
-
 ```
 
+## Using any local references
 
+Your code must not use any text that is local to user's system. For example,
 
+```diff
+-File tempDirectory = new File("/user/john/.tmp")
+-sdk.dir=/Applications/Unity/Hub/Editor/2019.4.29f1/PlaybackEngines/AndroidPlayer/SDK
+-dbConnection = db.connect('localhost:2345/prod_db')
+```
+
+## Extra empty lines
+
+Your code must not have empty lines. Make sure to use maximum of one empty line.
+
+```diff
+
+[slot=fixed] {
+    width: 100%;
+    height: 100%;
+}
++
++
++
++
++ion-segment-button {
+```

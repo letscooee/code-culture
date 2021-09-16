@@ -8,6 +8,8 @@ These steps must be taken after your merge request was reviewed and some changes
 2. Make the necessary change.
 3. If the suggested code is too big and time taking, discuss.
 4. After the code change was addressed, leave comment in the thread (GitLab).
+5. Make sure you address any other instance of a particular review comment throughout the MR. For example, if you 
+   were asked to remove print statements at one line, you check for other places in that MR.
 
 ## Testing the changes
 

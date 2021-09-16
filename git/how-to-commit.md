@@ -1,17 +1,39 @@
 # How to Commit
 
-1. One commit must have changes for one task/feature/bug/improvement.
+Follow these commit guidelines for each & individual commits.
 
-2. Do not commit files having changes for more than one task. For example, your single commit should have changes for 
-forgot password fix only but should not have a change for adding a new email OTP feature in the forgot password feature.
+## Be Specific
 
-3. If you are working on a new feature or task that takes you hours or days, you must do the commits frequently so 
-that you can look back into the entire journey of getting that feature code ready.
+Your one commit must have changes for only one task/feature/bug/improvement. For example, your commit must not 
+have changes for two bug fixes even if those are one word changes.
 
-4. If you are trying to make something functional that involves trying different approaches (trial-n-error), you must 
-commit each attempt or each approach.
+Another example, one commit must have changes for forgot password fix only but should not have a change for adding a 
+new email OTP feature in the forgot password feature.
 
-5. You must review each and every single character change before committing to make sure any unintentional change is 
-not being committed.
+## Golden Rule
+
+**DO NOT BLINDLY COMMIT VIA `git commit -a`**.
+
+## Review before commit
+
+You must review **each character** change in **each files** you are about to commit. Look at the below example-
+
+<img src="../assets/images/commit-preview.png" width="500px">
+
+1. Make sure you are not committing unversioned files if these files/directories are-
+   1. Auto generated files.
+   2. Temporary files.
+   3. You didn't create.
+   4. You are not sure about.
+2. You must not commit any accidental change in the code.
+
+## Commit frequency
+
+1. If you are working on a new feature or task that takes you hours or days, you must do the commits frequently (at 
+   least twice a day) so that you can look back into the entire journey of getting that feature code ready.
+2. If you are working on something that involves trying different approaches (trial-n-error), you must commit each 
+   attempt or each approach.
+
+## Commit message
    
-Read about commit messages in [how-to-write-commit-message.md](../git/how-to-write-commit-message.md).
+Read about commit messages in [how-to-write-commit-message.md](./how-to-write-commit-message.md).
