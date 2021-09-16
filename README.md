@@ -1,9 +1,15 @@
-# Code Culture & Standard Used by Wiz Panda Techno Solutions
+<br />
+<div align="center">
+  <a href="https://www.letscooee.com">
+  <img src="assets/images/logo-hoodie.png" width="250px" alt="Letscooee logo">
+  </a>
+</div>
 
-This repository contains the documentation about code culture followed by [Wiz Panda](https://wizpanda.com/). These code standards are
- applicable for any kind of code written with any language. For example-
+<br />
 
-1. General formatting of code in any language,
-2. Best practices followed in Angular,
-3. Best domain structure in Grails ORM, etc.
+<div align="center">
+  <h3>Code culture, standards & process followed in Cooee</h3>
+</div>
 
+<br/>
+<br/>

@@ -14,4 +14,4 @@ commit each attempt or each approach.
 5. You must review each and every single character change before committing to make sure any unintentional change is 
 not being committed.
    
-Read about commit messages in [how-to-write-commit-message.md](../how-to-write-commit-message.md).
+Read about commit messages in [how-to-write-commit-message.md](../git/how-to-write-commit-message.md).

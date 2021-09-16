@@ -1,25 +1,17 @@
 # General Code Formatting
 
-This is a general code formatting we follow at [Wiz Panda](https://wizpanda.com/).
+These are some general code formatting that is applicable for all code, languages or frameworks.
 
 ## Indentation
 
-Use 4 space (not tabs) to indent any sort of file. For example, TypeScript, JavaScript, Java, Groovy, HTML etc. The default formatting
-provided by IntelliJ IDEA uses the 4 spaces.
+Use 4 space (not tabs) to indent any sort of file. For example, TypeScript, JavaScript, Java, Groovy, HTML etc. The 
+default formatting provided by IntelliJ IDEA uses the 4 spaces.
 
-## Spacing
+Exceptions-
 
-These spacing rules are applicable to all code like TypeScript, Java or Groovy.
+1. Dart files
 
-```javascript
-// Wrong
-if("foo" !== "bar"){
-}
-
-// Right
-if ("foo" !== "bar") {
-}
-```
+Configure your IDE and `.editorconfig` (if present) to use 4 space indentation.
 
 ## Negating the nested if conditions
 
@@ -64,11 +56,6 @@ Device addDevice(JSONObject deviceJson, App app, User user) {
 }
 
 ```
-
-## Variable declaration priority
-
-As a general standard, private constants & static variables should come first in a class.
-
 
 
 

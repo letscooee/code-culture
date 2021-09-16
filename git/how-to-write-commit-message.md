@@ -15,7 +15,7 @@ A commit message must be clear and meaningful and explain what changes you have 
 
      :white_check_mark:   |   :x:
    -----------------------|----------
-   Fix in forgot password endpoint | fix is forgot password endpoint
+   Fix in forgot password endpoint | fix in forgot password endpoint
    Update in login page based on review | Some review changes.
    Fix in forgot password endpoint | Some fixes
    Update in login page UI based on review | Review changes
@@ -93,7 +93,7 @@ of commit messages written in imperative mood-
 - `test: Remove unneeded tests`
 - `docs: Add steps to update database for local development`
 
-**Git itself uses the imperative whenever it creates a commit on your behalf. For example: **
+**Git itself uses the imperative whenever it creates a commit on your behalf. For example:**
 
 - When you merge a branch- `Merge branch 'foo'`.
 - When you revert a commit- `Revert 'Fix the forgot password endpoint'`
@@ -163,7 +163,7 @@ Resolves: FOO-1108
 
 ## Few References
 
-Following are the referenced used to pick & decided this culture document of git commits-
+Following are a few referenced used to pick & decide this culture document of git commits-
 
 - https://chris.beams.io/posts/git-commit/#end
 - https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53

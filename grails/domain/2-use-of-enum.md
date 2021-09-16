@@ -8,7 +8,7 @@
 So let's use enum in our previous example (removing some fields from the previous example for simplicity).
 
 ```groovy
-package com.wizpanda.foo.user
+package com.letscooee.foo.user
 
 import grails.compiler.GrailsCompileStatic
 import groovy.transform.CompileStatic
@@ -67,7 +67,8 @@ mysql> desc user;
 +--------------+--------------+------+-----+---------+----------------+
 ```
 
-1. We added an enum right there in the same domain class. This can also go in `src/main/groovy/com/wizpanda/foo/user` as a separate class.
+1. We added an enum right there in the same domain class. This can also go in `src/main/groovy/com/letscooee/foo/user` 
+   as a separate class.
 2. `@CompileStatic` **MUST** be added for performance reason (read about the annotation).
 3. We added the field in the domain.
 

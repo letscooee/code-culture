@@ -1,7 +1,7 @@
 # Best Practice 1: A Simple Domain Class
 
 ```groovy
-package com.wizpanda.foo.user
+package com.letscooee.foo.user
 
 import grails.compiler.GrailsCompileStatic
 import groovy.transform.ToString
@@ -52,11 +52,11 @@ mysql> desc user;
 
 The following are the explanation line by line:
 
-1. Every domain classes must be in a good package to start. They should start with `com.wizpanda.app-name`. For example, a user related
- domain should be in a package `com.wizpanda.foo.user`.
+1. Every domain classes must be in a good package to start. They should start with `com.letscooee.app-name`. For example, a user related
+ domain should be in a package `com.letscooee.foo.user`.
 2. Domain classes must have Javadoc to explain the usage of the domain entity.
 3. Every domain class must have a `@ToString` annotation which must print the `id` and any other required field. If you do not add
- `@ToString` or do not override the `String toString()` method, those gets printed something like this: `com.wizpanda.foo.user.User(id: 11)`.
+ `@ToString` or do not override the `String toString()` method, those gets printed something like this: `com.letscooee.foo.user.User(id: 11)`.
 4. Every domain classes must have `@GrailsCompileStatic` (unless explicitly discussed to skip). This helps in performance.
 5. The `constraints`, `mapping` & `belongsTo` should come before the declaration of fields.
 6. The constraints need to think & applied for every single field. For example,
