@@ -1,6 +1,6 @@
 # Branch Conventions
 
-## Naming Conventions
+## 1. Naming Conventions
 
 You must use the following naming conventions for creating a new branch-
 

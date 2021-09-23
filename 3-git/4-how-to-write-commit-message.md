@@ -2,7 +2,7 @@
 
 In order to create a useful revision history, teams should first agree on a commit message convention.
 
-## General
+## 1. General
 
 A commit message must be clear and meaningful and explain what changes you have made and why you made them.
 
@@ -20,22 +20,22 @@ A commit message must be clear and meaningful and explain what changes you have 
    Fix in forgot password endpoint | Some fixes
    Update in login page UI based on review | Review changes
 
-## Subject/Title/Header
+## 2. Subject/Title/Header
 
 This used to be the first line of the commit. Must be short (50 chars or less). This first commit line is the most 
 important.
 
-## Body (optional)
+## 3. Body (optional)
 
 Commits can have body i.e. a more detailed explanatory text, if necessary. If you add a commit body then a blank 
 line must separate it from the subject.
 
-## Footer (optional)
+## 4. Footer (optional)
 
 Commits can also have footer which can be used to reference issues affected by this code change. For example-
 `Fixes #1108`
 
-## Jira or Issue Reference
+## 5. Jira or Issue Reference
 
 Commit title/subject must end with the Jira ticket number or the repository's issue number.
    
@@ -45,7 +45,7 @@ Commit title/subject must end with the Jira ticket number or the repository's is
 - `Update the home page UI KIDS-2105`.
 - `Change in the login page UI #1108`
 
-## Commit Types
+## 6. Commit Types
 
 Commit message should begin with a type of commit-
 
@@ -73,7 +73,7 @@ Commit message should begin with a type of commit-
 - `build: Update Angular dependencies to latest CUR-4567`
 - `docs: Steps to update database for local development`
 
-## Scope
+## 7. Scope
 
 A scope is provided in parentheses after the commit type. A scope is a phrase describing parts of the code affected 
 by the changes.
@@ -81,7 +81,7 @@ by the changes.
 - `fix(customer-module): Forgot password endpoint for sending OTP COO-11`
 - `refactor(common): Separate reference & rename capabilities #401108`
 
-## Imperative mood while writing messages
+## 8. Imperative mood while writing messages
 
 Your commit message should be in imperative mood. For example: `fix: Change xyz to do foo-bar` instead of
 `fix: Changed xyz to do foo-bar` as if you are giving orders to the codebase to change its behaviour. A few examples 
@@ -98,7 +98,7 @@ of commit messages written in imperative mood-
 - When you merge a branch- `Merge branch 'foo'`.
 - When you revert a commit- `Revert 'Fix the forgot password endpoint'`
 
-## Example-
+## Examples-
 
 In general, 
 ```

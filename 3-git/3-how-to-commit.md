@@ -2,7 +2,7 @@
 
 Follow these commit guidelines for each & individual commits.
 
-## Be Specific
+## 1. Be Specific
 
 Your one commit must have changes for only one task/feature/bug/improvement. For example, your commit must not 
 have changes for two bug fixes even if those are one word changes.
@@ -10,15 +10,15 @@ have changes for two bug fixes even if those are one word changes.
 Another example, one commit must have changes for forgot password fix only but should not have a change for adding a 
 new email OTP feature in the forgot password feature.
 
-## Golden Rule
+## 2. Golden Rule
 
 **DO NOT BLINDLY COMMIT VIA `git commit -a`**.
 
-## Review before commit
+## 3. Review before commit
 
 You must review **each character** change in **each files** you are about to commit. Look at the below example-
 
-<img src="../assets/images/commit-preview.png" width="500px">
+<img src="../assets/images/git/commit-preview.png" width="500px">
 
 1. Make sure you are not committing unversioned files if these files/directories are-
    1. Auto generated files.
@@ -27,7 +27,7 @@ You must review **each character** change in **each files** you are about to com
    4. You are not sure about.
 2. You must not commit any accidental change in the code.
 
-## Commit frequency
+## 4. Commit frequency
 
 1. If you are working on a new feature or task that takes you hours or days, you must do the commits frequently (at 
    least twice a day) so that you can look back into the entire journey of getting that feature code ready.
@@ -36,4 +36,4 @@ You must review **each character** change in **each files** you are about to com
 
 ## Commit message
    
-Read about commit messages in [how-to-write-commit-message.md](./how-to-write-commit-message.md).
+Read about commit messages in [how-to-write-commit-message.md](./4-how-to-write-commit-message.md).

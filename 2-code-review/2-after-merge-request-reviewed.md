@@ -16,7 +16,7 @@ These steps must be taken after your merge request was reviewed and some changes
 
 ## 2. Testing the changes
 
-1. You must perform all the tests that you mentioned in the initial MR - [Testing performed](after-merge-request.md#testing-performed).
+1. You must perform all the tests that you mentioned in the initial MR - [Testing performed](1-after-merge-request.md#testing-performed).
 2. Add any other test coverage point you covered.
 
 ## 3. Pushing the changes & re-submit for review
@@ -25,4 +25,4 @@ These steps must be taken after your merge request was reviewed and some changes
    1. For trivial changes, you can amend your last commit and force push to your branch.
 2. leave comment in the thread (GitLab).
 3. Resolve each & individual thread in GitLab which was addressed **by leaving comment and resolving them**.
-4. Perform all the steps again mentioned in the [after-merge-request.md](after-merge-request.md)
+4. Perform all the steps again mentioned in the [after-merge-request.md](1-after-merge-request.md)
