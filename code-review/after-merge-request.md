@@ -47,9 +47,7 @@ must pass and result is green. For example, the following MR won't be accepted-
 2. User facing texts are checked for typos & grammar mistakes.
 3. The screenshots of modified/new screens should be attached.
 
-## 7. MR Title & Description
-
-### Title
+## 7. MR Title
 
 1. The MR must have a descriptive title.
 2. **It must not be the name of your branch**.
@@ -64,21 +62,6 @@ must pass and result is green. For example, the following MR won't be accepted-
 + COOEE-123 Added user login endpoint
 ```
 
-### Description
-
-In the description, you must attach all the testing you have performed in bullet points. For example-
-
-```html
-Tests conducted-
-
-1. Login endpoint is accepting POST request.
-2. User existence is checked before performing the request.
-3. Password validation is performed before signup.
-4. Locked accounts are not allowed to login.
-5. User signup is not broken because of user login.
-6. Any other code related to login (like profile display endpoint) is not effected.
-```
-
 ## 8. Code based test cases
 
 1. Unit & integration test cases of modified code have been added which covers edge case scenarios.
@@ -91,6 +74,23 @@ You must highlight the followings in your MR or Jira card-
 1. Any fix, feature or task which was not covered as per the expectation.
 2. Any potential threat or security issue that was not covered.
 3. Any edge case scenario you discovered during the development.
+
+## 10. Testing performed
+
+In the MR comment, you must add all the testing you have performed in bullet points. For example-
+
+```html
+Tests conducted-
+
+1. Login endpoint is accepting POST request.
+2. User existence is checked before performing the request.
+3. Password validation is performed before signup.
+4. Locked accounts are not allowed to login.
+5. User signup is not broken because of user login.
+6. Any other code related to login (like profile display endpoint) is not effected.
+```
+
+These tests must be re-performed after each time you re-assign your MR for consecutive reviews.
 
 ## After you are done with all the above-
 
